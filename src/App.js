@@ -1,17 +1,21 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import Table from './table';
-import Counter from './state';
-import Score from './score';
-import CPUForm from './Form'
+import Table from './lession9/table';
+import Counter from './lession9/state';
+import Score from './lession9/score';
+import CPUForm from './lession9/Form'
+import CPUList from './lession9/CPUList'
+import PropsDemo from './lession9/props'
 function App() {
   return (
-    <div className="App">
+    <div>
       {/* <Table/> */}
       {/* <Counter/> */}
+      <PropsDemo/>
       {/* <Score></Score> */}
-      <CPUForm></CPUForm>
+     {/* <CPUForm></CPUForm>
+      <CPUList></CPUList>*/}
     </div>
   );
 }
